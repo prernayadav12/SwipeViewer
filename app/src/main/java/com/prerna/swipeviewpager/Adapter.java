@@ -18,12 +18,6 @@ public class Adapter extends PagerAdapter {
     private LayoutInflater layoutInflater;
     private Context context;
 
-
-
-
-
-    
-
     public Adapter(List<Model> models, Context context) {
         this.models = models;
         this.context = context;
